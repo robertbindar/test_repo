@@ -1,0 +1,2 @@
+python -m mariadb_kernel.install
+
