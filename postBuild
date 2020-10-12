@@ -1,3 +1,5 @@
-pip install git+https://github.com/Shelnutt2/mariadb_kernel.git@setuptools-scm
+git clone https://github.com/robertbindar/mariadb_kernel.git
+cd mariadb_kernel
+pip install .
 python -m mariadb_kernel.install
 
