@@ -4,7 +4,6 @@ git clone https://github.com/MariaDB/mariadb_kernel.git
 cd mariadb_kernel
 pip install .
 python -m mariadb_kernel.install
-
 cd
 mkdir datadir
 mysql_install_db --user=jovyan --datadir=./datadir --auth-root-authentication-method=normal
